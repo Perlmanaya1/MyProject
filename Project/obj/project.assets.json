@@ -1,11 +1,44 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Algoritem/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Algoritem.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Algoritem.dll": {}
+        }
+      },
+      "ReadAndWruteData/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ReadAndWruteData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReadAndWruteData.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Algoritem/1.0.0": {
+      "type": "project",
+      "path": "../Algoritem/Algoritem.csproj",
+      "msbuildProject": "../Algoritem/Algoritem.csproj"
+    },
+    "ReadAndWruteData/1.0.0": {
+      "type": "project",
+      "path": "../ReadAndWruteData/ReadAndWruteData.csproj",
+      "msbuildProject": "../ReadAndWruteData/ReadAndWruteData.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Algoritem >= 1.0.0",
+      "ReadAndWruteData >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Owner\\.nuget\\packages\\": {}
@@ -32,7 +65,14 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Owner\\Desktop\\Project\\Algoritem\\Algoritem.csproj": {
+              "projectPath": "C:\\Users\\Owner\\Desktop\\Project\\Algoritem\\Algoritem.csproj"
+            },
+            "C:\\Users\\Owner\\Desktop\\Project\\ReadAndWruteData\\ReadAndWruteData.csproj": {
+              "projectPath": "C:\\Users\\Owner\\Desktop\\Project\\ReadAndWruteData\\ReadAndWruteData.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

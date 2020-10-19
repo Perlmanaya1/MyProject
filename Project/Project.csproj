@@ -5,4 +5,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Algoritem\Algoritem.csproj" />
+    <ProjectReference Include="..\ReadAndWruteData\ReadAndWruteData.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,6 @@
+C:\Users\Owner\Desktop\Project\ReadAndWruteData\bin\Debug\ReadAndWruteData.dll
+C:\Users\Owner\Desktop\Project\ReadAndWruteData\bin\Debug\ReadAndWruteData.pdb
+C:\Users\Owner\Desktop\Project\ReadAndWruteData\obj\Debug\ReadAndWruteData.csprojAssemblyReference.cache
+C:\Users\Owner\Desktop\Project\ReadAndWruteData\obj\Debug\ReadAndWruteData.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\Project\ReadAndWruteData\obj\Debug\ReadAndWruteData.dll
+C:\Users\Owner\Desktop\Project\ReadAndWruteData\obj\Debug\ReadAndWruteData.pdb

@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace Algoritem
 {
-    public class c1
-
+    class Class1
     {
-        public void func1()
+        public string Name { get; set; }
+        public Class1( string Name)
         {
-            Console.WriteLine("func1");
+            this.Name = Name;   
         }
+                    
     }
 }

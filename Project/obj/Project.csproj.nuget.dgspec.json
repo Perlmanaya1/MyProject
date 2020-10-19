@@ -4,6 +4,16 @@
     "C:\\Users\\Owner\\Desktop\\Project\\Project\\Project.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Owner\\Desktop\\Project\\Algoritem\\Algoritem.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Owner\\Desktop\\Project\\Algoritem\\Algoritem.csproj",
+        "projectName": "Algoritem",
+        "projectPath": "C:\\Users\\Owner\\Desktop\\Project\\Algoritem\\Algoritem.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\Owner\\Desktop\\Project\\Project\\Project.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -26,7 +36,14 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Owner\\Desktop\\Project\\Algoritem\\Algoritem.csproj": {
+                "projectPath": "C:\\Users\\Owner\\Desktop\\Project\\Algoritem\\Algoritem.csproj"
+              },
+              "C:\\Users\\Owner\\Desktop\\Project\\ReadAndWruteData\\ReadAndWruteData.csproj": {
+                "projectPath": "C:\\Users\\Owner\\Desktop\\Project\\ReadAndWruteData\\ReadAndWruteData.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -54,6 +71,16 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\Owner\\Desktop\\Project\\ReadAndWruteData\\ReadAndWruteData.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Owner\\Desktop\\Project\\ReadAndWruteData\\ReadAndWruteData.csproj",
+        "projectName": "ReadAndWruteData",
+        "projectPath": "C:\\Users\\Owner\\Desktop\\Project\\ReadAndWruteData\\ReadAndWruteData.csproj"
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }

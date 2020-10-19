@@ -1,0 +1,6 @@
+C:\Users\Owner\Desktop\Project\Algoritem\bin\Debug\Algoritem.dll
+C:\Users\Owner\Desktop\Project\Algoritem\bin\Debug\Algoritem.pdb
+C:\Users\Owner\Desktop\Project\Algoritem\obj\Debug\Algoritem.csprojAssemblyReference.cache
+C:\Users\Owner\Desktop\Project\Algoritem\obj\Debug\Algoritem.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\Project\Algoritem\obj\Debug\Algoritem.dll
+C:\Users\Owner\Desktop\Project\Algoritem\obj\Debug\Algoritem.pdb

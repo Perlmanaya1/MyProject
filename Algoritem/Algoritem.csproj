@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B64682E7-D7F7-4BF4-BD67-75F737DC4D38}</ProjectGuid>
+    <ProjectGuid>{BBD9487B-4135-4833-9CCA-F25001C72B0C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Algoritem</RootNamespace>
@@ -41,18 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="C1.cs" />
+    <Compile Include="c1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Project\Project.csproj">
-      <Project>{a873bc79-6df7-4833-b082-7ad29ca9dad1}</Project>
-      <Name>Project</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ReadAndWriteData\ReadAndWriteData.csproj">
-      <Project>{f4ded3a6-3f22-4524-9536-8e5ea822a59c}</Project>
-      <Name>ReadAndWriteData</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,16 +1,21 @@
 ﻿using System;
+using Algoritem;
+using ReadAndWruteData;
+
 
 namespace Project
 {
-	class Program
+	
+    class Program
 	{
 		static void Main(string[] args)
 		{
 			Console.WriteLine("Hello World!");
-			C1 cc;
+			c1 cc=new c1();
 			cc.func1();
-			C2 ccc;
+            c2 ccc=new c2();
 			ccc.func2();
+
 		}
 	}
 }

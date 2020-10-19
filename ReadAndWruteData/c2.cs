@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ReadAndWriteData
+namespace ReadAndWruteData
 {
-    public class Class1
+    public class c2
     {
+        public void func2()
+        {
+            Console.WriteLine("func2");
+        }
     }
 }
